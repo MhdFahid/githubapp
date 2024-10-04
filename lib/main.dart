@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:github_sign_in_plus/github_sign_in_plus.dart';
 import 'package:githubapp/firebase_options.dart';
 import 'package:githubapp/screens/login.dart';
 import 'package:http/http.dart' as http;

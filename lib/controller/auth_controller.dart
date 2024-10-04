@@ -11,7 +11,7 @@ class AuthController extends GetxController {
   Future<void> signInWithGitHub(BuildContext context) async {
     final GitHubSignIn gitHubSignIn = GitHubSignIn(
       clientId:
-          'Ov23liFQv5peUnthCUSV', // Replace with your secure env variables
+          'Ov23liFQv5peUnthCUSV',
       clientSecret: '0e291b05bdabe7905e924e1a80b27d532e0dcfba',
       redirectUrl: 'https://github-c582d.firebaseapp.com/__/auth/handler',
     );

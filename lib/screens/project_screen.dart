@@ -109,7 +109,7 @@ class ProjectScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 10),
-            // Branches
+           
             Obx(() {
               if (projectController.isLoadingBranches.value) {
                 return const Center(child: CircularProgressIndicator());
@@ -154,7 +154,7 @@ class ProjectScreen extends StatelessWidget {
               );
             }),
             const SizedBox(height: 10),
-            // Commits
+           
             Obx(() {
               if (projectController.isLoadingCommits.value) {
                 return const Center(child: Text(''));

@@ -7,8 +7,8 @@ class ProjectController extends GetxController {
 
   ProjectController({required this.projectName, required this.userName, required this.token});
 
-  var branches = [].obs; // Observable for branches
-  var commits = [].obs;  // Observable for commits
+  var branches = [].obs; 
+  var commits = [].obs; 
   var isLoadingBranches = true.obs;
   var isLoadingCommits = true.obs;
 
