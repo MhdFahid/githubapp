@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "104035888942",
+    "project_id": "github-c582d",
+    "storage_bucket": "github-c582d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104035888942:android:6a04a03e816f22ca0bd4bf",
+        "android_client_info": {
+          "package_name": "com.example.githubapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0jS-6IuGZFM1AZpT6b8-yHuhdRu07Bi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
